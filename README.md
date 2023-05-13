@@ -6,4 +6,4 @@ One of the key features of ***SmartAss*** is its ability to provide personalized
 
 The current demo of ***SmartAss*** provides grade and assignment difficulty prediction, which is based on its analysis of the user's previous performance and the difficulty level of the assignment. This can help students set realistic goals and expectations for themselves, which can be important for maintaining motivation and focus throughout the assignment.
 
-Overall, ***SmartAss*** is an exciting development in the field of AI-based study assistance. By leveraging the power of machine learning and data analysis, this program has the potential to revolutionize the way that students approach their assignments and improve their academic performance. 
+In conclusion, ***SmartAss*** is an exciting development in the field of AI-based study assistance. By leveraging the power of machine learning and data analysis, this program has the potential to revolutionize the way that students approach their assignments and improve their academic performance. 
