@@ -1,0 +1,84 @@
+id,topic,subject,format,estimated_difficulty,difficulty_after_completion,time_dedicated,grade,dedication_env,student_experience,collaboration
+17,Mathematics,Algebra,Problem Set,5,7,10,85,Library,8,Yes
+6,History,World War II,Essay,6,8,15,78,Home,7,No
+23,Computer Science,Data Structures,Programming Assignment,7,9,20,92,Library,9,Yes
+7,Physics,Mechanics,Lab Report,4,6,8,88,Laboratory,6,Yes
+2,Literature,Shakespeare,Book Review,3,4,5,95,Home,9,No
+15,Chemistry,Organic Chemistry,Quiz,2,3,2,97,Library,8,No
+14,Economics,Macroeconomics,Research Paper,8,9,25,82,Home,7,Yes
+1,Psychology,Social Psychology,Case Study,5,6,12,90,Library,9,Yes
+20,Biology,Genetics,Group Project,6,8,18,87,Library,7,Yes
+10,Art,Impressionism,Portfolio,3,5,10,94,Home,9,No
+9,Mathematics,Calculus,Problem Set,4,6,8,88,Library,8,Yes
+21,History,Ancient Civilizations,Essay,5,7,12,82,Home,6,No
+28,Computer Science,Machine Learning,Programming Assignment,6,8,16,91,Library,9,Yes
+19,Physics,Thermodynamics,Lab Report,3,4,6,96,Laboratory,7,Yes
+25,Literature,American Literature,Book Review,2,3,3,98,Home,9,No
+3,Chemistry,Inorganic Chemistry,Quiz,1,2,1,100,Library,8,No
+28,Economics,Microeconomics,Research Paper,7,9,22,80,Home,7,Yes
+18,Psychology,Cognitive Psychology,Case Study,4,6,10,89,Library,9,Yes
+17,Biology,Cell Biology,Group Project,5,7,15,86,Library,7,Yes
+5,Art,Modern Art,Portfolio,3,4,8,92,Home,9,No
+12,Mathematics,Statistics,Problem Set,6,8,10,85,Library,8,Yes
+9,History,European History,Essay,7,9,14,80,Home,6,No
+7,Computer Science,Web Development,Programming Assignment,8,9,18,90,Library,9,Yes
+13,Physics,Electromagnetism,Lab Report,5,7,6,93,Laboratory,7,Yes
+24,Literature,British Literature,Book Review,4,5,4,97,Home,9,No
+16,Chemistry,Analytical Chemistry,Quiz,3,4,2,99,Library,8,No
+26,Economics,International Economics,Research Paper,5,6,20,82,Home,7,Yes
+1,Psychology,Abnormal Psychology,Case Study,6,8,12,80,Library,9,Yes
+11,Computer Science,Database Management,Programming Assignment,7,9,20,90,Home,8,Yes
+4,Chemistry,Physical Chemistry,Lab Report,6,8,10,87,Laboratory,7,Yes
+8,Art,Renaissance Art,Portfolio,3,4,8,92,Library,9,No
+3,Mathematics,Geometry,Problem Set,5,7,12,85,Library,8,Yes
+26,History,Cold War,Essay,7,9,14,80,Home,6,No
+14,Biology,Evolution,Group Project,6,8,18,88,Library,7,Yes
+13,Psychology,Developmental Psychology,Case Study,5,6,12,91,Library,9,Yes
+22,Computer Science,Artificial Intelligence,Programming Assignment,8,9,18,89,Home,8,Yes
+9,Physics,Optics,Lab Report,5,7,6,93,Laboratory,7,Yes
+18,Literature,Contemporary Literature,Book Review,4,5,4,97,Home,9,No
+31,Chemistry,Inorganic Chemistry,Quiz,3,4,2,99,Library,8,No
+37,Economics,Game Theory,Research Paper,5,6,20,82,Home,7,Yes
+19,Psychology,Social Development,Case Study,6,8,12,88,Library,9,Yes
+12,Biology,Anatomy,Group Project,5,7,15,86,Library,7,Yes
+35,Art,Abstract Art,Portfolio,4,5,10,90,Home,9,No
+27,Mathematics,Number Theory,Problem Set,6,8,10,85,Library,8,Yes
+16,History,Ancient Rome,Essay,7,9,14,80,Home,6,No
+23,Computer Science,Operating Systems,Programming Assignment,8,9,18,90,Library,9,Yes
+29,Physics,Quantum Mechanics,Lab Report,7,9,8,94,Laboratory,7,Yes
+25,Literature,Classic Novels,Book Review,4,5,6,96,Home,9,No
+7,Chemistry,Organometallic Chemistry,Quiz,3,4,3,98,Library,8,No
+21,Economics,Public Finance,Research Paper,6,7,22,84,Home,7,Yes
+33,Psychology,Personality Psychology,Case Study,5,6,10,89,Library,9,Yes
+40,Biology,Ecology,Group Project,6,8,15,87,Library,7,Yes
+28,Art,Photography,Portfolio,3,4,8,92,Home,9,No
+36,Mathematics,Linear Algebra,Problem Set,5,7,10,88,Library,8,Yes
+30,History,Ancient Greece,Essay,6,8,12,82,Home,6,No
+32,Computer Science,Software Engineering,Programming Assignment,7,9,16,91,Library
+45,Physics,Astrophysics,Research Paper,8,9,25,85,Library,8,Yes
+42,Literature,Postcolonial Literature,Book Review,4,5,8,80,Home,7,No
+49,Chemistry,Biochemistry,Lab Report,6,8,12,88,Laboratory,6,Yes
+38,History,Ancient Egypt,Essay,5,7,14,92,Home,9,No
+47,Biology,Marine Biology,Field Study,7,9,20,86,Field,7,Yes
+44,Art,Sculpture,Portfolio,3,4,10,94,Home,9,No
+39,Mathematics,Discrete Mathematics,Problem Set,6,8,12,88,Library,8,Yes
+46,Economics,Behavioral Economics,Research Paper,7,9,18,82,Home,6,Yes
+43,Psychology,Neuropsychology,Case Study,5,6,10,89,Library,9,Yes
+48,Computer Science,Computer Networks,Programming Assignment,8,9,16,91,Library,9,Yes
+50,Physics,Particle Physics,Research Paper,9,9,25,80,Library,8,Yes
+55,Literature,Modern Poetry,Book Review,3,4,8,92,Home,9,No
+52,Chemistry,Environmental Chemistry,Lab Report,5,7,12,87,Laboratory,6,Yes
+59,History,Medieval History,Essay,6,8,14,80,Home,6,No
+57,Biology,Plant Biology,Field Study,7,9,20,88,Field,7,Yes
+54,Art,Conceptual Art,Portfolio,4,5,10,94,Home,9,No
+51,Mathematics,Mathematical Logic,Problem Set,5,7,12,88,Library,8,Yes
+58,Economics,Development Economics,Research Paper,7,9,18,82,Home,6,Yes
+53,Psychology,Counseling Psychology,Case Study,5,6,10,89,Library,9,Yes
+56,Computer Science,Data Mining,Programming Assignment,8,9,16,91,Library,9,Yes
+61,Physics,Condensed Matter Physics,Research Paper,8,9,25,85,Library,8,Yes
+62,Literature,Dystopian Fiction,Book Review,4,5,8,80,Home,7,No
+69,Chemistry,Forensic Chemistry,Lab Report,6,8,12,88,Laboratory,6,Yes
+68,History,Colonial America,Essay,5,7,14,92,Home,9,No
+67,Biology,Cellular Biology,Field Study,7,9,20,86,Field,7,Yes
+64,Art,Printmaking,Portfolio,3,4,10,94,Home,9,No
+63,Mathematics,Probability Theory,Problem Set,6,8,12,88,Library,8,Yes
