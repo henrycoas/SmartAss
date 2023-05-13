@@ -10,14 +10,14 @@
     }
 
     header {
-      background-color: #333;
+      background-color: #A2757E;
       color: #fff;
       padding: 20px;
       text-align: center;
     }
 
     nav {
-      background-color: #f5f5f5;
+      background-color: #B4838D;
       padding: 10px;
       text-align: center;
     }
@@ -43,7 +43,7 @@
     li {
       margin-bottom: 10px;
       padding: 10px;
-      background-color: #f5f5f5;
+      background-color: #B4838D;
       border-radius: 5px;
     }
 
@@ -63,7 +63,7 @@
 
     button {
       padding: 10px;
-      background-color: #333;
+      background-color: #A2757E;
       color: #fff;
       border: none;
       border-radius: 5px;
@@ -100,10 +100,30 @@
 
   <main>
     <section id="assignment-list">
-      <h2>My Assignments</h2>
-      <ul>
-        <!-- Display list of assignments dynamically -->
+      <h2>Subjects</h2>
+      <ul class="subject-list">
+        <li class="subject-name active-list">Physics</li>
+        <li class="subject-name">Chemistry</li>
+        <li class="subject-name">Math</li>
       </ul>
+    </section>
+
+    <section id="assignment">
+      <h2>Assignment</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Topic</th>
+            <th>Subject</th>
+            <th>Difficulty</th>
+            <th>Deadline</th>
+            <th>Esitimated Hour Required</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Display grade data dynamically -->
+        </tbody>
+      </table>
     </section>
 
     <section id="add-assignment">
@@ -112,22 +132,6 @@
         <!-- Assignment input fields go here -->
         <button type="submit">Add</button>
       </form>
-    </section>
-
-    <section id="grade-tracker">
-      <h2>Grade Tracker</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Assignment</th>
-            <th>Subject</th>
-            <th>Grade</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- Display grade data dynamically -->
-        </tbody>
-      </table>
     </section>
   </main>
 
