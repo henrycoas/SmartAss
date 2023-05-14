@@ -1,20 +1,46 @@
-import matplotlib.pyplot as plt
 import numpy as np
-from sklearn.preprocessing import LabelEncoder
-from sklearn import preprocessing
-
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler 
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.neural_network import MLPClassifier
-from sklearn.metrics import accuracy_score
 import pandas as pd 
+
+import matplotlib.pyplot as plt
+
+from sklearn import preprocessing
+from sklearn.preprocessing import StandardScaler 
+from sklearn.model_selection import train_test_split
+from sklearn.neural_network import MLPClassifier
+
+""" 
+names = [
+    "Nearest Neighbors",
+    "Linear SVM",
+    "RBF SVM",
+    "Gaussian Process",
+    "Decision Tree",
+    "Random Forest",
+    "Neural Net",
+    "AdaBoost",
+    "Naive Bayes",
+    "QDA",
+]
+
+classifiers = [
+    KNeighborsClassifier(3),
+    SVC(kernel="linear", C=0.025),
+    SVC(gamma=2, C=1),
+    GaussianProcessClassifier(1.0 * RBF(1.0)),
+    DecisionTreeClassifier(max_depth=5),
+    RandomForestClassifier(max_depth=5, n_estimators=10, max_features=1),
+    MLPClassifier(alpha=1, max_iter=1000),
+    AdaBoostClassifier(),
+    GaussianNB(),
+    QuadraticDiscriminantAnalysis(),
+] """
 
 def getTrainData():
     # Import
     url = 'trainDatabase.csv'
     dataset = pd.read_csv(url) 
 
+    # Label treatment
     le = preprocessing.LabelEncoder()
     dataset['topic'] = le.fit_transform(dataset['topic'])
     dataset['subject'] = le.fit_transform(dataset['subject'])
@@ -28,6 +54,7 @@ def getEvalDataset():
     url = 'newAssignments.csv'
     dataset = pd.read_csv(url) 
 
+    # Label treatment
     le = preprocessing.LabelEncoder()
     dataset['topic'] = le.fit_transform(dataset['topic'])
     dataset['subject'] = le.fit_transform(dataset['subject'])
@@ -39,8 +66,6 @@ trainDataset = getTrainData()
 evalDataset = getEvalDataset()
 
 # Assign values to the X and y variables:
-# id,topic,type,estimated_difficulty,difficulty_after_completion,start_time,finish_time,time_dedicated,grade
-# X = trainDataset[['id','topic','type','estimated_difficulty','difficulty_after_completion','start_time','finish_time','time_dedicated','grade']]
 X = trainDataset[['id','topic','subject','format','estimated_difficulty']]
 y = trainDataset['time_dedicated']
 X_eval = evalDataset[['id','topic','subject','format','estimated_difficulty']]
@@ -51,6 +76,8 @@ scaler = StandardScaler()
 X = scaler.fit_transform(X)
 X_eval = scaler.fit_transform(X_eval)
 
+#para = {'alpha':[1,2,3,5,20]} 
+#CV = GridSearchCV(classifier, para, cv=5, n_jobs=-1)
 classifier = MLPClassifier(alpha=1, max_iter=1000)
 classifier.fit(X, y) 
 
